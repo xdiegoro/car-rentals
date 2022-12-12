@@ -21,17 +21,17 @@
     <finalName>car-rentals</finalName>
   </build>
 	
- <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
-            </configuration>
-        </plugin>
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+	 <version>3.1</version>
+	 <configuration>
+		 <source>1.7</source>
+		 <target>1.7</target>
+	 </configuration>
+	</plugin>
 	
-  <distributionManagement>
+	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <url>http://172.31.4.16:8081/repository/car-rentals-snapshot/</url>
